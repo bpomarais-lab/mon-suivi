@@ -1,0 +1,20 @@
+INSTALLATION
+1. Ces fichiers constituent un prototype PWA. Pour l'installer sur Android, il faut les publier sur une adresse HTTPS.
+2. Le dépôt GitHub peut contenir le PROGRAMME, jamais tes données de santé. GitHub Pages est public.
+3. Après publication, ouvre l'adresse dans Chrome Android > menu ⋮ > Installer l'application / Ajouter à l'écran d'accueil.
+4. Ouvre une première fois avec Internet pour mettre les fichiers en cache. Ensuite, le service worker permet l'ouverture hors connexion.
+
+DONNEES ET SAUVEGARDES
+Les saisies sont conservées localement dans IndexedDB sur le téléphone. Elles ne sont pas synchronisées. Dans Personnaliser, exporte régulièrement le JSON et copie-le sur ton PC. Fais aussi une deuxième copie sur clé USB ou disque externe. Teste la restauration.
+Ne vide pas les données du navigateur et ne désinstalle pas l'application sans sauvegarde vérifiée.
+
+PROTECTION
+- Verrouille Android avec un code robuste.
+- Protège ton PC par mot de passe et chiffrement du disque si disponible.
+- Ne partage pas les fichiers de sauvegarde : ils contiennent des données de santé.
+- Le prototype ne chiffre pas les données à l'intérieur du navigateur. Toute personne ayant accès au téléphone déverrouillé et au navigateur peut potentiellement les consulter.
+- Le code source doit être hébergé séparément des données. Ne mets jamais de données personnelles dans GitHub.
+
+LIMITES
+Prototype de départ à tester avant usage régulier. L'impression utilise la fonction Imprimer du navigateur et devra être testée sur ton téléphone/imprimante. La fonction d'analyse IA n'est pas incluse : elle devra être ajoutée séparément, après export volontaire des données. Ce prototype n'est pas un dispositif médical.
+Le suivi de l'essoufflement en côte est une observation, pas un test d'effort. N'essaie pas de provoquer l'essoufflement. Si l'essoufflement s'aggrave nettement, survient au repos ou s'accompagne de douleur thoracique, malaise ou lèvres bleutées, demande une aide médicale urgente (15 ou 112 en France).
