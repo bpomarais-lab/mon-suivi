@@ -27,3 +27,6 @@ h3{display:flex;justify-content:space-between;align-items:center}h3 button{paddi
 
 #tp{inset:auto;top:50%;left:50%;transform:translate(-50%,-50%);width:min(330px,92vw);border-radius:14px;box-shadow:0 0 0 100vmax rgba(0,0,0,.45);padding:16px;overflow:visible}
 .tpr{display:flex;align-items:center;justify-content:center;gap:12px;margin:14px 0}.tpc{display:flex;flex-direction:column;align-items:center;gap:8px}.tpc input{width:90px;font-size:40px;text-align:center;padding:8px}.tpc button{width:90px;font-size:22px;margin:0;padding:10px 0}.tpr b{font-size:40px}
+
+.ctr{text-align:center}#noteSave{display:block;margin:10px auto}.line .col{display:flex;flex-direction:column;align-items:flex-start;gap:6px;flex:1}.line input[type=text].cv{flex:1 1 100%}.datetxt{font-weight:600;color:#315b50;margin:-4px 0 8px}.two{display:flex;gap:10px;flex-wrap:wrap}.two table{flex:1 1 300px}
+@media print{body.print-chart .ag{font-size:10px}body.print-chart .ag td,body.print-chart .ag th{padding:2px 6px}body.print-chart .two{flex-wrap:nowrap}body.print-chart #chBox p{margin:2px 0}}
