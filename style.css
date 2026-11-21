@@ -30,3 +30,5 @@ h3{display:flex;justify-content:space-between;align-items:center}h3 button{paddi
 
 .ctr{text-align:center}#noteSave{display:block;margin:10px auto}.line .col{display:flex;flex-direction:column;align-items:flex-start;gap:6px;flex:1}.line input[type=text].cv{flex:1 1 100%}.datetxt{font-weight:600;color:#315b50;margin:-4px 0 8px}.two{display:flex;gap:10px;flex-wrap:wrap}.two table{flex:1 1 300px}
 @media print{body.print-chart .ag{font-size:10px}body.print-chart .ag td,body.print-chart .ag th{padding:2px 6px}body.print-chart .two{flex-wrap:nowrap}body.print-chart #chBox p{margin:2px 0}}
+
+.line{flex-wrap:wrap;padding:5px 0;gap:3px 10px}.line>span.nm{flex:1 1 100%}.line .rw{display:flex;align-items:center;justify-content:space-between;flex:1 1 100%}.line .rw button{margin:0;padding:6px 11px;font-size:14px}.line .act{margin-left:0}
