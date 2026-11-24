@@ -32,3 +32,12 @@ h3{display:flex;justify-content:space-between;align-items:center}h3 button{paddi
 @media print{body.print-chart .ag{font-size:10px}body.print-chart .ag td,body.print-chart .ag th{padding:2px 6px}body.print-chart .two{flex-wrap:nowrap}body.print-chart #chBox p{margin:2px 0}}
 
 .line{flex-wrap:wrap;padding:5px 0;gap:3px 10px}.line>span.nm{flex:1 1 100%}.line .rw{display:flex;align-items:center;justify-content:space-between;flex:1 1 100%}.line .rw button{margin:0;padding:6px 11px;font-size:14px}.line .act{margin-left:0}
+
+label.chk{display:flex;gap:8px;align-items:center}label.chk input{width:auto;margin:0}
+.trow{display:flex;flex-wrap:wrap;gap:8px}.tcell{flex:1 1 130px;margin:0;font-size:14px}.tcell textarea{min-height:40px;overflow:hidden;resize:none}
+label.hasf2{position:relative;padding-right:46px}.fold2{position:absolute;right:0;top:-4px;margin:0;padding:2px 12px;background:#2e9e5b;color:#fff}.f2 select,.f2+#medName{display:none!important}
+.md{background:#e0b020!important;color:#202a26}.line .rw{justify-content:flex-start;gap:6px}.line .act{margin-left:auto}
+
+.t.w{background:#e53935;color:#fff}.nobg .t.w{color:#e53935;font-weight:700}
+
+.nap{display:flex;align-items:center;gap:6px;margin:6px 0}.nap input{flex:1;margin:0}.nx{margin:0;background:#b3261e;padding:6px 12px}
